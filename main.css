@@ -21,7 +21,9 @@ body {
   padding: 46px;
 }
 
-.search {
+.search,
+.button,
+.dghi {
   display: flex;
   justify-content: center;
 }
@@ -34,13 +36,79 @@ body {
   vertical-align: bottom;
 }
 
+.search-form {
+  display: flex;
+}
 .search-text {
   border-style: solid;
   border-width: 1px;
   border-color: lightgray;
   border-radius: 25px;
-  height: 34px;
+  height: 38px;
   font-size: 16px;
   display: flex;
-  width: 500px;
+  width: 550px;
+}
+.search-icon {
+  position: relative;
+}
+
+.search-icon .search {
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+
+.search-icon .mic {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
+
+.button {
+  padding: 20px;
+}
+
+.button .submit_btn {
+  padding-right: 12px;
+}
+
+.lang a,
+.about a {
+  padding: 5px;
+}
+
+.india,
+.about {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  background-color: #f2f2f2;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.about a {
+  color: #70757a;
+}
+a {
+  text-decoration: none;
+}
+
+.submit_btn input,
+.lucky_btn input {
+  background-color: #f8f9fa; /* Green */
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: black;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }
