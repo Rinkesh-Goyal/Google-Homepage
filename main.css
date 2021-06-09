@@ -1,0 +1,46 @@
+body {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+  display: block;
+}
+.nav-left {
+  padding: 9px;
+}
+
+.nav-left-img {
+  padding: 6px;
+}
+
+.topnav {
+  float: right;
+  display: flex;
+}
+
+.afgh {
+  padding: 46px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  vertical-align: bottom;
+}
+
+.search-text {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 25px;
+  height: 34px;
+  font-size: 16px;
+  display: flex;
+  width: 500px;
+}
